@@ -1,0 +1,19 @@
+{
+  "name": "ts_template",
+  "version": "1.0.0",
+  "description": "Simple TypeScript tempalte for Chrome extension environment",
+  "main": "dist/background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.244",
+    "@types/node": "^20.5.9",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "typescript": "^5.2.2"
+  }
+}

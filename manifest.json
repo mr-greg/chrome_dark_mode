@@ -1,0 +1,13 @@
+{
+    "name": "ts_template",
+    "description": "Simple TypeScript tempalte for Chrome extension environment",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+       "activeTab",
+       "scripting"
+    ],
+    "background": {
+       "service_worker": "dist/background.js"
+    }
+ }
